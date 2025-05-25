@@ -1,0 +1,37 @@
+:root{
+    --background-color: #0D1B2A;
+    --input-background: #0F2A4D;
+    --borders: #162C47;
+    --details-color: #7C3AED;
+    
+    --components-background: #1E355B;
+    --components-background--hover: #273E7A;
+    
+    --text-titles: #A0A8B8;
+    --text-primary: #E0E6F2;
+    --text-secondary: #A9B2C3;
+
+    --buttons-background-hover: #345995;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+
+#root{
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+
+    padding: 40px;
+}
+
+main {
+  flex: 1; /* empurra o footer para baixo */
+}

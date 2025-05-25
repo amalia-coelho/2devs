@@ -1,0 +1,29 @@
+.menu-box{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.20);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease, margin-bottom 0.3s ease;
+
+}
+
+.menu-box i{
+    color: white;
+    font-size: 25px;
+}
+
+.menu-box:hover{
+    width: 65px;
+    height: 65px;
+
+    margin-bottom: 15px;
+
+    background-color: var(--buttons-background-hover);
+    cursor: pointer;
+}
