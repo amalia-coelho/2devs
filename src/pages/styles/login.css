@@ -1,0 +1,83 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: var(--background-color);
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-secondary);
+}
+
+.login-box{
+    width: 90%;
+    max-width: 400px;
+    height: auto; 
+    background-color: var(--components-background);
+
+    border-radius: 8px;
+    padding: 20px;
+
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-header {
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form .form-group span{
+    font-size: 12px;
+}
+
+.login-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--components-border);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input::placeholder{
+    color: var(--text-secondary);
+}
+
+.login-form a,
+.login-footer a{
+    text-decoration: none;
+    color: var(--details-color);
+}
+
+.login-form #btn-login{
+    width: 100%;
+    background-color: var(--details-color);
+    color: var(--text-primary);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-form a:hover,
+.login-footer a:hover{
+    color: var(--buttons-background-hover);
+}
+
+.login-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -4,3 +4,8 @@ function time() {
   const minutes = now.getMinutes().toString().padStart(2, '0');
   return `${hours}:${minutes}`;
 }
+
+function formatPath(filePath) {
+  const name = filePath.split('/').pop().replace('.jsx', '');
+  return name.toLowerCase() === 'home' ? '/' : `/${name.toLowerCase()}`;
+}
